@@ -2,4 +2,4 @@
 all: build
 
 build:
-		go build -o simple-server
+		go build -o /tmp/simple-server
