@@ -16,7 +16,7 @@ steps:
     stage: build
     image_name: simple-server
     working_directory: ./
-    tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
+    tag: 'builder'
     dockerfile: Dockerfile
 	Deploy:
     title: deploying to cluster
